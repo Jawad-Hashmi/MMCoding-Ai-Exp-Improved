@@ -1,0 +1,20 @@
+{
+  "name": "standalone-test-improver",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "dev": "nodemon --config nodemon.json",
+    "test": "node --import ./test/setup.js --test"
+  },
+  "dependencies": {
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

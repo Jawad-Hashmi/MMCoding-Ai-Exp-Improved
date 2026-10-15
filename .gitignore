@@ -1,0 +1,15 @@
+
+# Ignore node_modules
+node_modules/
+
+# Ignore environment variable files
+.env
+
+# Ignore log files
+logs/
+
+# Ignore build output
+improved/
+
+# Ignore test files
+test/

@@ -1,0 +1,16 @@
+{
+  "watch": ["src", ".env"],
+  "ext": "js,json,env",
+  "ignore": [
+    "node_modules/**",
+    "test/**",
+    "logs/**",
+    "data/**",
+    "improved/**"
+  ],
+  "delay": "500ms",
+  "legacyWatch": true,
+  "signal": "SIGUSR2",
+  "exec": "node src/server.js",
+  "verbose": false
+}
